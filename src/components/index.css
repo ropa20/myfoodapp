@@ -1,0 +1,308 @@
+body{
+  background-image: none;
+  font-family: sans-serif;
+}
+/* @import 'antd/dist/antd.css'; */
+
+.seg-1{
+  height:100vh;
+  width: 100vw;
+  background-color: rgba(245, 237, 226, 1);
+  background-image: url("banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+}
+.seg-1, .seg-2, .seg-3, .seg-4, .seg-5, .seg-6{
+  padding-bottom: 4rem;
+}
+.logo{
+  font-size: 1.7rem;
+  font-family: fantasy;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-right: 20vw; */
+}
+.menu{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.7rem;
+  font-weight: bold;
+  /* margin-right: 10vw; */
+}
+
+.main-text {
+  margin-top: 10vw;
+  margin-left: 5vw;
+  font-size: 1.7rem;
+}
+
+.ordernow, .signup{
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+
+.orderprocess, .login{
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border-radius: 3rem;
+  border: solid 0.1rem;
+}
+
+.login{
+  font-size: 12px;
+  padding: 10px 27px;
+}
+.signup{
+  font-size: 12px;
+  padding: 10px 27px;
+}
+.ordernow:hover {background-color: #464646;}
+.signup:hover {background-color: #464646;}
+.h1{
+  font-size: 4rem;
+  font-weight: bolder;
+  color: orange;
+  display: inline-block;
+}
+
+.h2{
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+h3{
+  color: orange;
+}
+.search{
+  padding: 1rem;
+}
+.search-bar{
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 2rem;
+  background: transparent;
+  border: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, .4);
+  /* box-shadow: #757575; */
+}
+.cart{
+  background: transparent;
+  border: none !important;
+}
+.stars{
+  padding: 2rem;
+}
+.text{
+  font-weight: bold;
+}
+.fa-star{
+  color: orange;
+}
+/* ------------------------------------------------------SEG-2---------------------------------------------------------------- */
+
+.seg-2{
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+/* ---------------------------------------------------SEG-3-----------------------------------------------------------------  */
+.small-text{
+  width: 30rem;
+  font-size: 1.5rem;
+}
+.seg-3{
+  display: flex;
+  margin-left: 10rem;
+}
+.card1, .card2, .card3 {
+  background-color: rgba(245, 237, 226, 1);
+  /* Add shadows to create the "card" effect */
+  border-radius: 2rem;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* padding: 2rem; */
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.content {
+  padding: 2px 16px;
+  /* display: flex;
+  justify-content: center; */
+}
+.small-cards{
+  display: flex;
+  justify-content: space-between;
+}
+/* .card1,.card2,.card3 img{
+
+} */
+/* ------------------------------------------------------SEG-4---------------------------------------------------------------- */
+.seg-4{
+  text-align: center; /*important*/
+}
+.orange-text{
+  color: orange;
+  font-size: 2rem;
+}
+.seg-4-text{
+  font-size: 4rem;;
+}
+/* ------------------------------------------------------SEG-5---------------------------------------------------------------- */
+.a-box {
+  display: inline-block;
+  width: 18rem;
+  margin-bottom: 0;
+  /* height: rem; */
+  text-align: center;
+}
+
+.img-container {
+    height: 15rem;
+    width: 18rem;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.not-wished-item{
+  position: absolute;
+  z-index: 1000;
+  color: rgb(196, 133, 133);
+  position: absolute;
+  padding-top: 5.8rem;
+  padding-left: 1.3rem;
+  
+}
+#fa-heart:hover{
+  cursor: pointer;
+  color: red ;
+}
+.wished-item{
+  color: red;
+}
+
+
+.img-container img {
+    transform: skew(12deg, 0deg);
+    height: 25rem;
+    margin: -35px 0px 0px -70px;
+}
+
+.inner-skew {
+    display: inline-block;
+    border-radius: 2rem;
+    overflow-y: hidden;
+    padding: 0px;
+    transform: skew(0deg, 10deg);
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 25rem;
+    width: 20rem;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  /* padding: 110px 10px 10px 10px; */
+  padding-top: 2rem;
+  width: 18rem;
+  height: 15rem;
+  border-radius: 20px;
+  background: #f0ebeb;
+  margin: -3rem 0rem 0rem 0rem;
+  margin-bottom: 12rem; 
+  /* margin-top: -3rem; */
+  line-height: 19px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h3 {
+  /* width: 100%; */
+  margin: 20px 0px 10px 0px;
+  color: orange;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.text-container p{
+  font-size: 1.1rem;
+  /* margin-top: 2rem; */
+}
+.big-cards{
+  display: flex;
+  justify-content: space-around;
+}
+/* ------------------------------------------------------SEG-6---------------------------------------------------------------- */
+.seg-6{
+  display: flex;
+  justify-content: center;
+}
+.ordernow2{
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 1.3rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+/* ------------------------------------------------------SEG-7---------------------------------------------------------------- */
+.seg-7{
+  display: flex;
+  height: 45vh;
+  width: 100vw;
+  background-image: url("footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: #04bcff; */
+  /* width: 100vw; */
+}
+.footer-card{
+  /* background-color: rebeccapurple; */
+  display: flex;
+  height: 45vh;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+html{
+  font-size: 62.5%;
+}

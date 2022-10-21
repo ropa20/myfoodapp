@@ -1,0 +1,140 @@
+@import '~antd/dist/antd.css';
+.search-container{
+    position: absolute;
+        z-index: 1000;
+        height:300vh;
+        width: 100vw;
+        background-color: rgba(245, 237, 226, .8);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        left: 0px;
+        top: 10%;
+        box-sizing: border-box;
+}
+.wish-container{
+    position: absolute;
+        z-index: 1000;
+        height:300vh;
+        width: 100vw;
+        background-color: rgba(245, 237, 226, .8);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+}
+.bigcards{
+    padding: 3rem;
+    padding-bottom: 2;
+}
+
+.scroll{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content:start;
+    overflow-x: scroll;
+    margin-left: 0px;
+    
+    /* top: 20%; */
+}
+.recipe{
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    border: solid green 0.1rem;
+}
+.modal{
+    border-radius: 5%;
+    width: 47rem;
+    background-color: rgba(245, 237, 226, .8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.c1, .c2{
+    color: orange;
+}
+.wish-a-box {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    width: 90vw;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    /* height: rem; */
+    text-align: center;
+    display: inline-flex;
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 2rem;
+  }
+  .wish-img-container img {
+    /* transform: skew(12deg, 0deg); */
+    height: 15rem;
+    width: 30rem;
+    border-radius: 2rem;
+    /* margin: -35px 0px 0px -70px; */
+}
+  .wish-img-container {
+      height: 15rem;
+      width: 30rem;
+      overflow: hidden;
+      border-radius: 2rem;
+      display: inline-block;
+      position: relative;
+  }
+
+  .wish-text-container {
+    /* padding: 110px 10px 10px 10px; */
+    padding-top: 2rem;
+    width: 65vw;
+    height: 15rem;
+    border-radius: 20px;
+    background: #f0ebeb;
+    /* margin: -3rem 0rem 0rem 0rem; */
+    /* margin-bottom: 12rem;  */
+    /* margin-top: 5rem; */
+
+    /* margin-top: -3rem; */
+    line-height: 19px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .h3 {
+    /* width: 100%; */
+    margin: 20px 0px 10px 0px;
+    color: orange;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .wish-text-container p{
+    font-size: 1.1rem;
+    /* margin-top: 2rem; */
+  }
+.remove{
+    background-color: black;
+    color: #f0ebeb;
+    border-radius: 2rem;
+    width: 15rem;
+}
+.blank{
+    /* background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    top: 0; */
+}
+html{
+    font-size: 62.5%;
+  }
