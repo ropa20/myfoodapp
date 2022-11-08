@@ -4,6 +4,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import "./logsign.css";
+import "./index.css"
 import { UserAuth } from '../context/AuthContext';
 
 const Signup = () => {
@@ -78,7 +79,7 @@ const Signup = () => {
         />
       </Form.Item>
       <Form.Item className='submit'>
-        <Button htmlType="submit" className="orderprocess">
+        <Button htmlType="submit" className="signup">
           Sign up
         </Button>
         <span className='sign'><b>Already a user?</b><Link to='/login' className='link'>Login!</Link></span>

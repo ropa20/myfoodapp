@@ -43,7 +43,7 @@ body{
   font-size: 1.7rem;
 }
 
-.ordernow, .signup{
+.ordernow{
   background-color: #000000;
   color: #fff;
   border: none;
@@ -56,7 +56,7 @@ body{
   border-radius: 3rem;
 }
 
-.orderprocess, .login{
+.orderprocess{
   padding: 1.5rem 3.2rem;
   text-align: center;
   text-decoration: none;
@@ -69,16 +69,7 @@ body{
   border: solid 0.1rem;
 }
 
-.login{
-  font-size: 12px;
-  padding: 10px 27px;
-}
-.signup{
-  font-size: 12px;
-  padding: 10px 27px;
-}
 .ordernow:hover {background-color: #464646;}
-.signup:hover {background-color: #464646;}
 .h1{
   font-size: 4rem;
   font-weight: bolder;

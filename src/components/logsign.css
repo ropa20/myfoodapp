@@ -49,60 +49,6 @@ input[type=password] {
 .checkbox{
     padding: 1rem;
 }
-/* .login-form-button{
-    <!-- HTML !-->
-<button class="button-68" role="button">Button 68</button> */
-
-/* CSS */
-.button-68 {
-  appearance: none;
-  backface-visibility: hidden;
-  background-color: #6cbe36;
-  border-radius: 8px;
-  border-style: none;
-  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
-  box-sizing: border-box;
-  color: rgb(233, 219, 30);
-  cursor: pointer;
-  display: inline-block;
-  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: normal;
-  line-height: 1.5;
-  outline: none;
-  overflow: hidden;
-  padding: 5px 35px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
-}
-
-.button-68:hover {
-  background-color: #1e8449;
-  opacity: 1;
-  transform: translateY(0);
-  transition-duration: .35s;
-}
-
-.button-68:active {
-  transform: translateY(2px);
-  transition-duration: .35s;
-}
-
-.button-68:hover {
-  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
-}
-/* .submit{
-    padding-top: 1rem;
-} */
 .sign{
     display: flex;
     justify-content: center;
@@ -111,4 +57,28 @@ input[type=password] {
 }
 .logo{
     font-size: 3rem;
+}
+.signup{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.2rem 2rem 3rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.login{
+    padding: 0.2rem 2rem 3rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+    border-radius: 3rem;;
+    background: transparent;
+    border-radius: 3rem;
+    border: solid 0.1rem;
 }

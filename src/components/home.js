@@ -57,14 +57,14 @@ return <div className='container'>
             </div>
             <Search/>
                 <div className='buttons'>
-                    <button className='signup' type="button">
+                    <button className='orderprocess' type="button">
                     <Dropdown overlay={menu} placement="bottom" visible={visible} onVisibleChange={isVisible => setVisible(isVisible)} >
                         <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
                             <i className="fa-solid fa-user fa"></i><DownOutlined />
                         </a>
                     </Dropdown>
                     </button>
-                    <button className='signup' type="button" onClick={handleLogOut}>Log out</button>
+                    <button className='ordernow' type="button" onClick={handleLogOut}>Log out</button>
                 </div>
         </div>
         <div className='main-text'>
