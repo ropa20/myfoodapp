@@ -62,7 +62,7 @@ input[type=password] {
     background-color: #000000;
     color: #fff;
     border: none;
-    padding: 0.2rem 2rem 3rem 2rem;
+    padding: 0.2rem 2rem 0.4rem 2rem;
     text-align: center;
     text-decoration: none;
     font-size: 1.6rem;
@@ -71,7 +71,8 @@ input[type=password] {
     border-radius: 3rem;
 }
 .login{
-    padding: 0.2rem 2rem 3rem 2rem;
+    background-color: #000000;
+    padding: 0.2rem 2rem 0.4rem 2rem;
     text-align: center;
     text-decoration: none;
     font-size: 1.6rem;

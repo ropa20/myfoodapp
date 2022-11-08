@@ -5,8 +5,8 @@ import Signup from './components/signup'
 import Home from './components/home'
 import { AuthContextProvider } from './context/AuthContext'
 import ProtectedRoute from './components/ProtectedRoute'
-import WishList from './components/wishList'
 import EmptyPage from './components/empty'
+import WishlistHelper from './components/wishlistHelper'
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Routes>
             <Route path='/' element={<Signup />} />
             <Route path='/login' element={<Login />} />
-            <Route path='/wishlist' element={<WishList />} />
+            <Route path='/wishlist' element={<WishlistHelper />} />
             <Route path='/wishlistIsEmpty' element={<EmptyPage />} />
             <Route path='/home' element={
               <ProtectedRoute>
